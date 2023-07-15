@@ -1,0 +1,14 @@
+D:\pro\CursoSharpBasic\CalcularProducto\bin\Debug\netcoreapp3.1\CalcularProducto.exe
+D:\pro\CursoSharpBasic\CalcularProducto\bin\Debug\netcoreapp3.1\CalcularProducto.deps.json
+D:\pro\CursoSharpBasic\CalcularProducto\bin\Debug\netcoreapp3.1\CalcularProducto.runtimeconfig.json
+D:\pro\CursoSharpBasic\CalcularProducto\bin\Debug\netcoreapp3.1\CalcularProducto.runtimeconfig.dev.json
+D:\pro\CursoSharpBasic\CalcularProducto\bin\Debug\netcoreapp3.1\CalcularProducto.dll
+D:\pro\CursoSharpBasic\CalcularProducto\bin\Debug\netcoreapp3.1\CalcularProducto.pdb
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.csproj.AssemblyReference.cache
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.GeneratedMSBuildEditorConfig.editorconfig
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.AssemblyInfoInputs.cache
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.AssemblyInfo.cs
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.csproj.CoreCompileInputs.cache
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.dll
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.pdb
+D:\pro\CursoSharpBasic\CalcularProducto\obj\Debug\netcoreapp3.1\CalcularProducto.genruntimeconfig.cache

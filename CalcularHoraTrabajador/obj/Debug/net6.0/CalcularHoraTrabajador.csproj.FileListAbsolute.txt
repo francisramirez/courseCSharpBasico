@@ -1,0 +1,15 @@
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\bin\Debug\net6.0\CalcularHoraTrabajador.exe
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\bin\Debug\net6.0\CalcularHoraTrabajador.deps.json
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\bin\Debug\net6.0\CalcularHoraTrabajador.runtimeconfig.json
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\bin\Debug\net6.0\CalcularHoraTrabajador.dll
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\bin\Debug\net6.0\CalcularHoraTrabajador.pdb
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.csproj.AssemblyReference.cache
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.GeneratedMSBuildEditorConfig.editorconfig
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.AssemblyInfoInputs.cache
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.AssemblyInfo.cs
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.csproj.CoreCompileInputs.cache
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.dll
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\refint\CalcularHoraTrabajador.dll
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.pdb
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\CalcularHoraTrabajador.genruntimeconfig.cache
+D:\pro\CursoSharpBasic\CalcularHoraTrabajador\obj\Debug\net6.0\ref\CalcularHoraTrabajador.dll
