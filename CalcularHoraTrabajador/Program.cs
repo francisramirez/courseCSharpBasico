@@ -1,7 +1,14 @@
-﻿
+﻿using CalcularHoraTrabajador.Datos;
+using System.Runtime.CompilerServices;
+using System.Xml.Linq;
+//CalcularHoraTrabajador();
 
-CalcularHoraTrabajador();
 
+//Calcular calcular = new Calcular();
+
+//calcular.CalcularConSwithNotas();
+
+GetSortedList();
 
 static void CalcularHoraTrabajador()
 {
@@ -54,4 +61,57 @@ static void CalcularNumeros()
 
     Console.WriteLine($"La suma es: {suma} y el producto es: {producto}");
 
+}
+
+static void GetSortedList() 
+{
+    var students = new List<Student>() 
+    {
+        new Student(){ EmployeeId = 1, Email="francis@gmail.com", FirstName="francis", LastName="ramirez" },
+        new Student(){ EmployeeId = 2, Email="jose@gmail.com", FirstName="jose", LastName="rodriguez" },
+        new Student(){ EmployeeId = 3, Email="armando@gmail.com", FirstName="armando", LastName="perez" },
+        new Student(){ EmployeeId = 4, Email="zapata@gmail.com", FirstName="zacarias", LastName="zapatas" },
+    };
+
+    var st = students.Find(cd => cd.EmployeeId == 2);
+
+    var value = students.BinarySearch(st);
+
+    foreach (var item in students)
+    {
+        Console.WriteLine(item.FirstName);
+    }
+
+    //// Create a set of strings  
+    //var names = new SortedSet<string>();
+    //names.Add("Sonoo");
+    //names.Add("Ankit");
+    //names.Add("Peter");
+    //names.Add("Irfan");
+    //names.Add("Ankit");//will not be added  
+
+    //// Iterate SortedSet elements using foreach loop  
+    //foreach (var name in names)
+    //{
+    //    Console.WriteLine(name);
+    //}
+}
+
+public class Student : IComparable
+{
+    public int EmployeeId { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; set; }
+
+    public int CompareTo(object? obj)
+    {
+        var result = 0;
+        if (obj != null)
+        {
+            result = 1;
+            return result;
+        }
+        return result;
+    }
 }

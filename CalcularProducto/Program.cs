@@ -1,5 +1,6 @@
-﻿using System;
-using System.Diagnostics.CodeAnalysis;
+﻿using CalcularProducto.Objetos;
+using System;
+
 
 namespace CalcularProducto
 {
@@ -9,8 +10,12 @@ namespace CalcularProducto
         {
 
             // CalcularNumeros();
-            CalcularHoraTrabajador();
-           
+            //CalcularHoraTrabajador();
+
+            Calcular calcular = new Calcular();
+            calcular.CalcularNotas();
+
+
         }
 
         /// <summary>
@@ -23,20 +28,41 @@ namespace CalcularProducto
             int num2 = 0;
             int suma = 0;
             int producto = 0;
-            string linea = string.Empty;
-
+            string linea = null;
+            
+         
             Console.WriteLine(" ---------Ingrese los numeros a calcular -----------");
 
             Console.WriteLine("Ingrese el primer numero: ");
             linea = Console.ReadLine();
-            num1 = int.Parse(linea);
+
+           
+            if (int.TryParse(linea, out int myNum))
+                num1 = myNum;
+            else 
+            {
+                Console.WriteLine($"El valor: { linea } es inválido");
+                return;
+            }
+               
 
             Console.WriteLine("Ingrese el segundo numero: ");
             linea = Console.ReadLine();
-            num2 = int.Parse(linea);
+
+            if (int.TryParse(linea, out int myNum2))
+                num2 = myNum2;
+            else
+            {
+                Console.WriteLine($"El valor: {linea} es inválido");
+                return;
+            }
 
             suma = (num1 + num2); // Calcular la suma de los dos numeros //
 
+            if (suma >= 200)
+            {
+                // realizar x cosa //
+            }
             producto = (num1 * num2);
 
             Console.WriteLine($"La suma es: { suma } y el producto es: { producto }");
