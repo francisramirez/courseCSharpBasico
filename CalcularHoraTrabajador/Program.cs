@@ -77,10 +77,10 @@ static void GetSortedList()
 
     var value = students.BinarySearch(st);
 
-    foreach (var item in students)
-    {
-        Console.WriteLine(item.FirstName);
-    }
+    //foreach (var item in students)
+    //{
+    //    Console.WriteLine(item.FirstName);
+    //}
 
     //// Create a set of strings  
     //var names = new SortedSet<string>();
