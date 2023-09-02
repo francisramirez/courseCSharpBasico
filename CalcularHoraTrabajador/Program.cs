@@ -1,12 +1,33 @@
 ﻿using CalcularHoraTrabajador.Datos;
-
-
+using CalcularHoraTrabajador.Entities;
 
 Estudiante estudiante = new Estudiante();
 
 estudiante.CargarDatos();
 
 var estudiantes = estudiante.GetEstudiantes();
+
+
+EstudianteDb estudianteDb = new EstudianteDb();
+
+
+int estId = 0;
+
+var result = estudianteDb.GuardarEstudiante(estudiante, out estId);
+
+
+if (result)
+{
+    Console.WriteLine("estudiante agregado");
+    //Obtener los datos del estudiante //
+    var est = estudianteDb.GetEstudiante(estId);
+
+    // Mostramo la informacion del estudiante.//
+}
+
+//estudianteDb.GetEstudiantes()
+
+//Console.WriteLine()
 
 foreach (var est in estudiantes)
 {

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShoolBasic.DAL.Core.Person">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Core\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShoolBasic.DAL.Entities.Employee">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShoolBasic.DAL.Entities.Admnistrative">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Admnistrative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShoolBasic.DAL.Entities.Instructor">
+    <Position X="1.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Instructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShoolBasic.DAL.Entities.Student">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

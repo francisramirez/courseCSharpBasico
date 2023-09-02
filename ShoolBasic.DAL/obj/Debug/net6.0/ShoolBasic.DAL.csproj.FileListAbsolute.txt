@@ -1,0 +1,12 @@
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\bin\Debug\net6.0\ShoolBasic.DAL.deps.json
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\bin\Debug\net6.0\ShoolBasic.DAL.dll
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\bin\Debug\net6.0\ShoolBasic.DAL.pdb
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ShoolBasic.DAL.csproj.AssemblyReference.cache
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ShoolBasic.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ShoolBasic.DAL.AssemblyInfoInputs.cache
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ShoolBasic.DAL.AssemblyInfo.cs
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ShoolBasic.DAL.csproj.CoreCompileInputs.cache
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ShoolBasic.DAL.dll
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\refint\ShoolBasic.DAL.dll
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ShoolBasic.DAL.pdb
+D:\pro\CursoSharpBasic\ShoolBasic.DAL\obj\Debug\net6.0\ref\ShoolBasic.DAL.dll

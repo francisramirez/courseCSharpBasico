@@ -1,19 +1,24 @@
-﻿
+﻿using CalcularHoraTrabajador.Contracts;
+using CalcularHoraTrabajador.Datos;
 
-using CalcularHoraTrabajador.Contracts;
-
-namespace CalcularHoraTrabajador.Datos
+namespace CalcularHoraTrabajador.Entities
 {
     public class Estudiante : Persona
     {
-        IPersonList personList; 
+        IPersonList personList;
+
+        public string Matricula { get; set; }
+        public string Curso { get; set; }
+
+        public int UserMod { get; set; }
+
         public Estudiante()
         {
-            this.personList = new PersonList();
+            personList = new PersonList();
         }
         public override void CargarDatos()
         {
-          
+
             for (int i = 0; i < 5; i++)
             {
                 personList.Add(new Estudiante()
@@ -34,9 +39,9 @@ namespace CalcularHoraTrabajador.Datos
             throw new NotImplementedException();
         }
 
-        public List<Persona> GetEstudiantes() 
+        public List<Persona> GetEstudiantes()
         {
-            return this.personList.GetPersonas();
+            return personList.GetPersonas();
         }
 
     }
